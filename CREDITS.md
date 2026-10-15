@@ -19,6 +19,7 @@ VelocityBench Drag is an original browser game. No car models, badges, or manufa
 - Engine note: "Car Engine Loop" by qubodup (OpenGameArt, https://opengameart.org/content/car-engine-loop-96khz-4s; also Freesound #147242), CC-BY 3.0. Shipped as `sounds/engine_loop.wav`, a mono 44.1 kHz downmix of the original `engine-loop-1-normalized.wav`. The game filters out the low boom and only raises the pitch a little with rpm. The electric cars do not use it.
 - Tires, tree beeps, shift clunk, and win chime: Web Audio synthesis
 - Chassis rumble, blower whine, turbo whistle and blow-off, intake roar, rev-limiter fuel cut, shift tire chirp, wind, and crowd murmur: Web Audio synthesis (original to this game, no recordings)
+- Stadium lamp flare and tire smoke wisps: generated in the canvas at runtime
 - Bloom, speed blur, heat shimmer, vignette, and film grain: three.js post-processing (MIT) with an original lens shader
 - Launch pad traction compound, rubber, and scoreboards: generated in the canvas at runtime
 - Timeslip graphic: drawn on a canvas at runtime
